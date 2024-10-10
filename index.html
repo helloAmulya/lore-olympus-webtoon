@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lore Olympus Webtoon</title>
+    <link rel="stylesheet" href="styles2.css">
+    <script src="new.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+    <!--  This is an assignment project for AnimeMangaToon from Ghackk Technologies. -->
+    <!-- The website is deployed on netlify for visualization,  link : -->
+    <!-- Developed by Amulya Ratna Sharma -->
+
+
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo btn-logo">
+            <a href="#" onclick="window.location.reload()" alt>AnimeMangaToon</a>
+        </div>
+
+        <div class="menu-icon" id="menu-icon" aria-label="Toggle menu">&#9776;</div>
+        <ul id="navbar-menu" role="navigation">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#characters">Characters</a></li>
+            <li><a href="#manhwa-list">Manhwa Carousel</a></li>
+            <li><a href="#contact-section">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2 class="animated-text">Welcome to the World of Lore Olympus</h2>
+            <p class="btext">Dive into the world of Greek mythology, love, and power.</p>
+
+        </div>
+    </section>
+
+    <!-- Introduction Section -->
+    <section id="intro" class="intro-section">
+        <p>Rachel Smith’s Lore Olympus webtoon is a modern retelling of the ancient Greek myth of Hades and Persephone,
+            which has taken the digital comics world by storm. This article explores the complex world of “Lore
+            Olympus,” providing details on the Lore Olympus characters, major themes, and the impact this beloved series
+            has on readers.</p>
+        <div class="cta-container">
+            <a class="cta-button" href="https://animemangatoon.com/lore-olympus-season-1-review/" target="_blank">Read
+                More About Lore Olympus</a>
+        </div>
+    </section>
+
+
+
+    <!-- Major Characters Section -->
+    <section id="characters" class="characters-section">
+        <h2>Major Characters</h2>
+        <div class="character-cards">
+
+
+            <!-- Character 1: Hades -->
+            <div class="character-card hades-card" tabindex="0" aria-label="Hades - God of the Underworld">
+                <img src="images/hades23.png" alt="Hades">
+                <h3>Hades</h3>
+                <p>God of the Underworld</p>
+
+                <span class="dots" onclick="toggleInfo(this)">...</span>
+                <div class="info-box">
+                    <p>Often depicted as a handsome blue man in a business suit, Hades runs the Underworld Corporation.
+                        Serves as the older brother of Zeus and Poseidon, and plays a role in the Six Traitor Dynasty.
+                        His character takes on the burden of leadership and pursuing personal interests.</p>
+                </div>
+
+            </div>
+
+            <!-- Character 2: Persephone -->
+            <div class="character-card persephone-card" tabindex="0" aria-label="Persephone - Goddess of Spring">
+                <img src="images/prespone1.png" alt="Persephone">
+                <h3>Persephone</h3>
+                <p>Goddess of Spring</p>
+                <div class="info-box">
+                    <p>Persephone is the story’s heroine, a contrast to the harsh reality of Olympus. Her journey
+                        included discovering her strength, and she dealt with the trauma of being raped by Apollo, as
+                        well as her strong feelings about the underworld.</p>
+                </div>
+                <span class="dots" onclick="toggleInfo(this)">...</span>
+            </div>
+
+
+            <!-- Character 3: Zeus -->
+            <div class="character-card zeus-card" tabindex="0" aria-label="Zeus - King of the Gods">
+                <img src="images/zeus23.png" alt="Zeus">
+                <h3>Zeus</h3>
+                <p>King of the Gods</p>
+                <div class="info-box">
+                    <p>Zeus, known for his notorious promiscuity and egotism, often brings chaos to Olympus. As a member
+                        of the Six Realms of Lies, he has relationships with many, including his brothers Hades and
+                        Poseidon, and embodies themes of power and corruption.</p>
+                </div>
+                <span class="dots" onclick="toggleInfo(this)">...</span>
+            </div>
+
+
+            <!-- Character 4: Poseidon -->
+            <div class="character-card poseidon-card" tabindex="0" aria-label="Poseidon - God of the Sea">
+                <img id="zimage" src="images/poseidon21.png" alt="Poseidon">
+                <h3>Poseidon</h3>
+                <p>God of the Sea</p>
+                <div class="info-box">
+                    <p>Characterized by a carefree temperament, Poseidon is depicted with green skin and long, wavy
+                        hair. Though not the wittiest, he is fiercely loyal to his family. His marriage to Amphitrite
+                        and their polygamous arrangement add depth to his character.</p>
+                </div>
+                <span class="dots" onclick="toggleInfo(this)">...</span>
+            </div>
+
+
+            <!-- Character 5: Eros -->
+            <div class="character-card eros-card">
+                <img src="images/eros21.png" alt="Eros">
+                <h3>Eros</h3>
+                <p>God of Love.</p>
+                <div class="info-box">
+                    <p>Son of Aphrodite and Ares, Eros is a strong, maroon young man and one of Persephone’s closest
+                        friends. He understands her struggles with depression and provides unwavering support while
+                        nurturing other relationships, navigating his own challenges with Psyche.</p>
+                </div>
+                <span class="dots" onclick="toggleInfo(this)">...</span>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="manhwa-list">
+        <h2>The 10 Best Supernatural Manhwa You Should Read Now</h2>
+        <hr class="line-separator">
+        <div class="manhwa-container"></div>
+    </section>
+
+
+
+
+    <section id="final-words" class="final-words">
+        <h2>Final Words for Lore Olympus</h2>
+        <p>“Lore Olympus” is not just a retelling of Greek mythology; it is a beautiful tapestry of interlocking stories
+            that explore deep themes of power, love, and trauma. Rachel Smith’s vibrant art and nuanced storytelling
+            have created a world that deeply affects readers, offering both entertainment and insight.</p>
+    </section>
+
+
+
+    <!--  Send Comment   -->
+    <!-- I have interated Formspree Api for sending the comment -->
+    <div class="elementor-element elementor-element-f6f5360 elementor-widget elementor-widget-jnews_post_comment_elementor"
+        data-id="f6f5360" data-element_type="widget" data-widget_type="jnews_post_comment_elementor.default">
+        <div class="elementor-widget-container">
+            <div class="jnews_comment_container jeg_custom_comment_wrapper">
+                <div id="respond" class="comment-respond">
+                    <h3 id="reply-title" class="comment-reply-title">Leave a Reply</h3>
+                    <form action="https://formspree.io/f/manywkza" method="POST" id="commentform" class="comment-form">
+                        <p class="comment-notes">
+                            <span id="email-notes">Your email address will not be published.</span>
+                            <span class="required-field-message">Required fields are marked <span
+                                    class="required">*</span></span>
+                        </p>
+                        <p class="comment-form-comment">
+                            <label for="comment">Comment <span class="required">*</span></label>
+                            <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525"
+                                required="required"></textarea>
+                        </p>
+                        <p class="comment-form-author">
+                            <label for="author">Name <span class="required">*</span></label>
+                            <input id="author" name="name" type="text" value="" size="30" maxlength="245"
+                                autocomplete="name" required="required">
+                        </p>
+                        <p class="comment-form-email">
+                            <label for="email">Email <span class="required">*</span></label>
+                            <input id="email" name="email" type="email" value="" size="30" maxlength="100"
+                                aria-describedby="email-notes" autocomplete="email" required="required">
+                        </p>
+                        <p class="comment-form-url">
+                            <label for="url">Website</label>
+                            <input id="url" name="url" type="text" value="" size="30" maxlength="200"
+                                autocomplete="url">
+                        </p>
+                        <p class="comment-form-cookies-consent">
+                            <input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox"
+                                value="yes">
+                            <label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for
+                                the next time I comment.</label>
+                        </p>
+                        <p class="form-submit">
+                            <input name="submit" type="submit" id="submit" class="submit" value="Post Comment">
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <footer id="contact-section">
+        <div class="contact-section">
+            <p>Contact Me:</p>
+            <div class="icon-wrapper">
+                <a href="https://www.instagram.com/amulyaratna.1/" target="_blank"><i
+                        class="fab fa-instagram icon"></i></a>
+                <a href="https://github.com/helloAmulya" target="_blank"><i class="fab fa-github icon"></i></a>
+                <a href="https://twitter.com/helloamulya" target="_blank"><i class="fab fa-twitter icon"></i></a>
+                <a href="mailto:internamulya@gmail.com"><i class="far fa-envelope icon"></i></a>
+            </div>
+        </div>
+
+        <p>&copy; 2024 AnimeMangaToon. All Rights Reserved.</p>
+    </footer>
+
+
+
+</body>
+
+</html>
